@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+:root{
+    --font1:'Roboto', sans-serif;
+    --font2:'Tiro Gurmukhi', serif;  
+    --font3:'Baloo Bhai 2', cursive ;
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+.formBox input,textarea{
+    width: 45vw;
+    padding: 6px 6px;
+    margin: 6px 0px;
+    border-radius: 8px ;
+    font-size: 14px;
+    font-family: var(--font3);
+}
+
+.contact{
+    position: relative;
+    height: 60vh;
+    margin: 12px 0px;
+}
+
+.contactForm{
+    padding: 12px 35px;
+}
+
+.footer{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 23px;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
